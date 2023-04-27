@@ -841,9 +841,22 @@ footer .arriba {
 
     .contacto .fila {
         display: block;
+        align-items: center;
     }
 
     .contacto .fila .col {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
+    /* .contacto .contenido-seccion {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    } */
+    /* .imagen {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    } */
 }
