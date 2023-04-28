@@ -859,4 +859,86 @@ footer .arriba {
         flex-direction: row;
         justify-content: center;
     } */
+    .contacto .col .info {
+        height: 240px;
+        margin-top: 30px;
+        width: 270px;
+    }
+    .contacto .col img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    /* .curriculum .fila .izq {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right-width: 0px;
+        margin-right: 0px;
+        width: 250px;
+        } */
+    .contenedor-header {
+        width: 300px;
+    }
+    
+    .contenedor-header header{
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 295px;
+        margin-right: 0px;
+        margin-left: 0px;
+    
+    }
+    .inicio {
+        width: 300px;
+    }
+
+    .inicio .contenido-banner {
+        width: 300px;
+        height: 640px;
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    }
+    .sobremi {
+        width: 300px;
+    }
+    .sobremi .fila .col .conector-intereses {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .skills {
+        width: 300px;
+    }
+    .curriculum {
+        width: 300px;
+    }    
+    .portafolio {
+        width: 300px;
+        padding-left: 5px;
+        padding-inline-start: 5px;
+    }
+    .contacto {
+        height: 1100px;
+        width: 300px;
+    }
+
+    .portafolio .contenido-seccion {
+        height: 1400px;
+        width: 300px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .portafolio .galeria {
+        width: 300px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
 }
